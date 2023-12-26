@@ -22,6 +22,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
+	//JDBC템플릿 추가
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
+	//H2 디비 추가
+	runtimeOnly 'com.h2database:h2'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
